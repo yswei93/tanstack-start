@@ -1,0 +1,67 @@
+export const dummySkills: SkillRecord[] = [
+	{
+		id: "skill_001",
+		title: "PDF Generator",
+		slug: "pdf-generator",
+		description:
+			"Generate professional PDF documents from HTML templates with support for headers, footers, and page numbering.",
+		category: "document",
+		tags: ["pdf", "document", "export", "html"],
+		installCommand: "npx install-skill pdf-generator",
+		createdAt: "2026-01-15T08:30:00Z",
+		authorClerkId: "user_2abc123def456",
+		authorEmail: "alice@example.com",
+	},
+	{
+		id: "skill_002",
+		title: "SQL Query Builder",
+		slug: "sql-query-builder",
+		description:
+			"Construct type-safe SQL queries with support for joins, subqueries, and parameterized inputs across MySQL and PostgreSQL.",
+		category: "database",
+		tags: ["sql", "mysql", "postgresql", "query"],
+		installCommand: "npx install-skill sql-query-builder",
+		createdAt: "2026-02-03T14:00:00Z",
+		authorClerkId: "user_3bcd234efg567",
+		authorEmail: "bob@example.com",
+	},
+	{
+		id: "skill_003",
+		title: "Email Template Renderer",
+		slug: "email-template-renderer",
+		description:
+			"Render responsive HTML email templates with Outlook-compatible markup, preheader text, and bulletproof CTA buttons.",
+		category: "marketing",
+		tags: ["email", "html", "template", "outlook"],
+		installCommand: "npx install-skill email-template-renderer",
+		createdAt: "2026-03-22T09:15:00Z",
+		authorClerkId: null,
+		authorEmail: null,
+	},
+	{
+		id: "skill_004",
+		title: "JWT Auth Helper",
+		slug: "jwt-auth-helper",
+		description:
+			"Handle JWT signing, verification, and refresh token rotation for Spring Boot and Node.js microservices.",
+		category: "security",
+		tags: ["jwt", "auth", "oauth2", "security"],
+		installCommand: "npx install-skill jwt-auth-helper",
+		createdAt: "2026-04-10T11:45:00Z",
+		authorClerkId: "user_4cde345fgh678",
+		authorEmail: "carol@example.com",
+	},
+	{
+		id: "skill_005",
+		title: "Batch Job Scheduler",
+		slug: "batch-job-scheduler",
+		description:
+			"Schedule and monitor long-running batch jobs with retry logic, dead-letter queuing, and execution history tracking.",
+		category: "infrastructure",
+		tags: ["batch", "scheduler", "queue", "retry"],
+		installCommand: "npx install-skill batch-job-scheduler",
+		createdAt: null,
+		authorClerkId: null,
+		authorEmail: null,
+	},
+];
